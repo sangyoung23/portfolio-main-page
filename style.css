@@ -1,0 +1,206 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Cormorant Garamond", serif;
+}
+
+.hover-style:hover {
+  color: tomato;
+  transition: all 0.2s linear;
+  transform: scale(1.4);
+}
+
+/* section part-1 */
+#fullpage section:nth-child(1) {
+  color: black;
+  background-color: white;
+}
+
+.head-box {
+  display: flex;
+  justify-content: start;
+  padding: 35px;
+}
+
+.head-box strong {
+  font-size: 25px;
+}
+
+.Tv-page {
+  position: relative;
+}
+
+.Tv-page img {
+  position: absolute;
+  top: 40px;
+  left: 600px;
+  width: 320px;
+  height: 400px;
+}
+
+.Tv-page h1 {
+  position: absolute;
+  top: 240px;
+  left: 730px;
+  font-size: 60px;
+}
+
+/* ABout me section */
+#fullpage section:nth-child(2) {
+  color: black;
+  background-color: #eceff1;
+}
+
+.about-head {
+  padding: 30px;
+}
+
+.about-head h1 {
+  font-size: 45px;
+  text-shadow: 6px 6px 0 #c5e1a5;
+  color: #003d00;
+}
+
+.about-main-box {
+  display: flex;
+  justify-content: center;
+}
+
+.selfie {
+  width: 520px;
+  height: 550px;
+  margin-right: 125px;
+  border-radius: 5%;
+  background-image: url("/sangyong/IMG/yong.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.introduce-box p {
+  font-size: 18px;
+  margin-bottom: 65px;
+}
+
+.skill-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-around;
+  text-align: center;
+  width: 365px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.skill-box i {
+  font-size: 85px;
+}
+
+.skill-box h2 {
+  font-size: 26px;
+  margin-top: 12px;
+}
+
+.HTML5 i {
+  color: #e55125;
+}
+
+.CSS3 i {
+  color: #0a73b8;
+}
+
+.JAVASCRIPT i {
+  color: #e5a228;
+}
+
+.REACT i {
+  color: #2196f3;
+}
+
+/* project section */
+#fullpage section:nth-child(3) {
+  position: relative;
+  color: black;
+  background-color: #cfd8dc;
+}
+
+.project {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 800px;
+  height: 730px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.clip {
+  position: absolute;
+  top: 0;
+  left: 745px;
+  width: 90px;
+  height: 80px;
+  z-index: 1;
+}
+
+.project-head {
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+  padding: 30px;
+  border-bottom: 1px solid black;
+}
+
+/* 미완성 박스 */
+.project-box {
+  display: flex;
+}
+
+.project-box div {
+  width: 180px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: #acdbba;
+}
+
+/* footer */
+#fullpage footer {
+  color: white;
+  background-color: black;
+}
+
+.footer-box {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 250px;
+}
+
+.contact-box {
+  margin-right: auto;
+}
+
+.contact-box h1 {
+  font-size: 80px;
+  text-shadow: 6px 6px 0 #0066ff;
+}
+
+.address-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.address-box a {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.address-box a:first-child {
+  margin-bottom: 18px;
+}
